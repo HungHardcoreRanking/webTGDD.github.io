@@ -1449,7 +1449,62 @@ info-devi:visited{
         margin-top: 18px;
     }
 }
-
+/*------------------------------------24h cong nghe------------------------------------------------*/
+.col2-tech {
+    display: flex;
+    align-items: stretch;
+    margin: 0 0 30px;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tech-new {
+    float: left;
+    width: 895px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+.bg-ctv {
+    display: block;
+    overflow: hidden;
+    max-width: 285px;
+}
+.tech-new ul {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 18px;
+}
+.tech-new ul li {
+    float: left;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 33%;
+    margin-right: 10px;
+}
+.tech-new ul li img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+.tech-new ul li span {
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333;
+    margin: 10px 0;
+}
 /*---------------------------------footer-------------------------*/
 
 .footer {
