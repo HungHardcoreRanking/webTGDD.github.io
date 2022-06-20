@@ -1505,6 +1505,31 @@ info-devi:visited{
     color: #333;
     margin: 10px 0;
 }
+/*-----------------------------------------------Thuong hieu--------------------------------------*/
+.trader-maker{
+    display: block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    
+}
+.title-layout {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.trader-maker ul li{
+    float: left;
+    width: (100%/3);
+    margin: 0 5px;
+}
+.trader-maker ul li img {
+    border-radius: 3px;
+}
 /*---------------------------------footer-------------------------*/
 
 .footer {
