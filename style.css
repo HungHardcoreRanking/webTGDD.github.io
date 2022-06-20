@@ -249,7 +249,8 @@ nav ul li:nth-child(8) a {
 }
 .submenu{
     position: absolute;
-    background-color: #DDD;
+    background-color: #fff;
+    border-radius: 4px;
     width: 300px;
     height: auto;
     left: 0;
@@ -272,6 +273,7 @@ nav ul li:nth-child(8) a {
 
 .submenu ul li:hover a{
     color: blueviolet;
+    font-weight: bold;
 }
 
 .submenu ul li:hover {
@@ -1530,10 +1532,70 @@ info-devi:visited{
 .trader-maker ul li img {
     border-radius: 3px;
 }
+/*---------------------chuoi moi deal khung-----------------------------------------------*/
+.newchain {
+    display: block;
+    margin-top: 30px;
+}
+.slider-slider {
+    display: flex;
+    position: relative;
+    height: 200px;
+    transition: all 0.3s;
+    margin-bottom: -40px;
+}
+.end-slider {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.deal-slider {
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+.deal-slider ul li {
+    float:left;
+    width: calc(100%/3);
+}
+.deal-slider ul li img {
+    width:380px;
+    height: 200px;
+    border-radius: 8px;
+    margin-left: 10px ;
+}
+.arrow-slider-end {
+    position: absolute;
+    top:50%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;   
+}
+.arrow-slider-end i {
+    color: #333;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(241, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
+    border-radius: 50%  ;
+    transition: all 0.5s;
+    opacity: .7;    
+}
+.slider-slider  .deal-slider:nth-child(2) ul {
+    transform: translateX(100%);
+}
+.arrow-slider-end:hover i {
+    cursor: pointer;
+    opacity: 1;
+}
+
 /*---------------------------------footer-------------------------*/
 
 .footer {
-    margin-top: 300px;
+    margin-top: 30px;
     border-top: 1px solid #e2e2e2;
 }
 .section{

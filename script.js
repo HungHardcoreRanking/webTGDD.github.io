@@ -138,6 +138,38 @@ btnxemdt.addEventListener("click",function()
     btnxemdt.parentNode.removeChild(btnxemdt);
 
  })
+ //------------------------chuoi moi deal khung -------------------------------------
+const  rightbtn_4 = document.querySelector(".arrow-right2")
+const  leftbtn_4 = document.querySelector(".arrow-left2")
+const imgdiscount1 = document.querySelectorAll(".slider-slider .deal-slider")
+let index2 =0
+console.log(imgdiscount1)
+rightbtn_4.addEventListener("click",function(){
+    index2=index2+1
+    if(index2>imgdiscount1.length-1)
+    {
+        index2=0
+    }
+    document.querySelector(".slider-slider").style.right=index2*100+"%"
+})
+leftbtn_4.addEventListener("click",function(){
+
+    index2=index2-1
+    if(index1<=0)
+    {
+        index2=imgdiscount1.length-2
+    }
+    document.querySelector(".slider-slider").style.right=index2*100+"%"
+})
+function Auto(){
+    index2=index2+1
+    if(index2>imgdiscount1.length-1)
+    {
+        index2=0
+    }
+    document.querySelector(".slider-slider").style.right=index2*100+"%"
+}
+setInterval(Auto,5000)
 //--------------------------------footer--------------------------
 const click = document.querySelector('.click')
 console.log(click)
