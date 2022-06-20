@@ -120,6 +120,24 @@ function Auto(){
     document.querySelector(".slider-banner").style.right=index1*100+"%"
 }
 setInterval(Auto,5000)
+//-------------------------list-dien thoai----------------------------------------
+const btnxemdt=document.querySelector(".btn_xemthem2")
+const imgNumdt=document.querySelectorAll(".hihihi")
+
+console.log(imgNumdt)
+let index3=0
+btnxemdt.addEventListener("click",function()
+ {  btnxemdt.disabled =true
+    index=index+1
+    if(index>imgNumdt.length-1)
+    {
+        index=0;
+    }
+    document.querySelector(".product-gallery-one-content-product").style.height=845+index*845+"px"
+    
+    btnxemdt.parentNode.removeChild(btnxemdt);
+
+ })
 //--------------------------------footer--------------------------
 const click = document.querySelector('.click')
 console.log(click)

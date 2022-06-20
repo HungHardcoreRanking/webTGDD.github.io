@@ -1067,6 +1067,388 @@ info-devi:visited{
     color: #ff0b0b;
 }
 /*--------------------------------end dich vu tien ich-------------------------------------------*/
+/*---product-gallery-one-content-product---*/
+/*Danh sách GỢI Ý HÔM NAY*/
+.option-pick
+{
+    display: flex;
+    overflow: hidden;
+    flex-flow: row;
+    padding: 0 0 15px;
+    text-align: center;
+    align-items: center;
+}
+.option-pick img{
+    height: 50px;
+    width: 50px;
+}
+.option-pick a
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 285px;
+    margin: 0 20px 0 0;
+    background: #fff;
+    border-radius: 8px;
+    height: 70px;
+    padding: 8px 0;
+}.option-pick a img
+{
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    width: 50px;
+    height: auto;
+}
+.option-pick span
+{
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    color: #555;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 8px 0 0;
+}
+.option-reque a
+{
+    background-color:orange ;
+}
+/*----Danh sách điện thoại---*/
+.product-gallery-one {
+    display: block;
+    overflow: hidden;
+    background: #f1f1f1;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-gallery-one-content-product
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+        position: relative;
+    height: 835px;
+    overflow: hidden;
+    transition: all 0.6s ease;
+}
+.product-gallery-one-content-product-item
+{
+    padding: 50px 12px 12px;
+    width: 19%;
+}
+.product-gallery-one-content-product-item >img
+{
+    width: 100%;
+}
+.product-gallery-one-content-product-item {
+    padding-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;background-color: white;
+    border-radius: 10px;
+
+}
+
+.product-gallery-one-content-product-item li {
+    margin-bottom: 6px;
+    list-style-type: none;
+}
+
+
+.product-gallery-one-content-product-item li:first-child p {
+    color: white;
+    margin-top: 10px;
+}
+.product-gallery-one-content-product-item li:first-child img {
+    width: 20px;
+    float: left;
+    margin-right: 6px;
+}
+.product-gallery-one-content-product-item a {
+    text-decoration: line-through;
+    color: black;
+}
+.product-gallery-one-content-product-item li:nth-child(3) {
+    color: #DED5D5;
+}
+
+.product-gallery-one-content-product-item u {
+    margin-left: 10px;
+    color: red;
+}
+.Dien-thoai
+{
+    padding-bottom: 20px;
+}
+.product-gallery-one-content-title-dienthoai
+{
+    background-color: #F3F3F3;
+}
+.product-gallery-one-content-product-items
+{
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    width: 100%;
+}
+
+.hihihi
+{
+    position: absolute;
+    padding-bottom: 25px ;
+}
+.hihihi:nth-child(2)
+{
+    transform: translateY(100%);
+    
+}
+.btn_xemthem2
+{
+    margin-left: 40%;
+}
+.btn_xemthem2 button
+{
+    padding: 15px 60px 15px 60px;
+    font-size: 20;
+    border-radius: 10px
+}
+/*responsive*/
+@media screen and (max-width:420px) 
+{
+    .container
+    {
+        width: 100%;
+    }
+    .container img
+    {
+        height: 40%;
+    }
+    .slider-product-one
+    {
+        width: 100%;
+    }
+    .btn_xemthem
+    {
+        padding-left: 5px;
+    }
+    .Xa_Kho
+    {  
+        font-size: 5px;
+        width: 100%;
+        height: 100% !important;
+        margin-bottom: 3px;
+    }
+    .Xa_Kho p
+    {
+        font-size: 5px;
+    }
+    .slider-product-one-content-text .Dat_truoc
+    {
+        font-size: 5px;
+        width: 80%;
+        height: 100% !important;
+        margin-bottom: 3px;
+    }
+    .Dat_truoc p
+    {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .slider-product-one-content .content-btn svg {
+        width: 20px;
+        height: 30px;
+    }
+
+    .slider-product-one-content-text li 
+    {
+        font-size: 7px;
+    }
+    .slider_baoquat svg 
+    {
+        width: 8px;
+    }
+    .slider_baoquat
+    {
+        width: 18%;
+    }
+    .tragop
+    {
+        height: 5%;
+    }
+    .tragop span
+    {
+        font-size: 5px;
+        height: 10px;
+        margin: 3px 3px 0px;
+    }
+    .slider-product-one-content-item img
+    {
+        width: 80%;
+        
+    }
+    .slider-product-one-content-item
+    {
+        width:100%;
+        padding:3px 3px 3px 3px;
+    }
+    .slider-product-one-content-text li:first-child img { width: 15px; margin-right: 1px; }
+    .slider-product-one-content-text li:first-child p {    margin-top: 7px; }
+    .slider-product-one-content-text { padding-top: 0px;}
+    .slider-product-one-content-text .VNPay
+    {   height: 15px;
+        font-size: 5px;
+        width: 100%;
+        height: 100% !important;
+       margin-bottom: 3px;
+    }
+    .slider-product-one-content-text
+    {
+        padding-top: 0px;
+    }
+    .slider-product-content-items-contents
+    {
+        height: 265px;
+    }
+    .btn_xemthem
+    {   
+        margin: 0px 0px 0px 0px;
+        margin-left: 30%;
+    }
+    .btn_xemthem button
+    {
+        padding:5px 10px 5px 10px
+    }
+    .danhsach-xuhuong img 
+    {
+        width: 100%;
+        height: 100% !important;
+    }
+    .danhsach-xuhuong
+    {
+       display: inline-block;
+    }
+    #Lenovo-margin
+    {
+        margin-top: -5px;
+    }
+}
+@media screen and (max-width: 920px) and (min-width: 420px)
+{
+    .container
+    {
+        width: 100%;
+    }
+    .container img
+    {
+        height: 40%;
+    }
+    .slider-product-one
+    {
+        width: 100%;
+    }
+    .btn_xemthem
+    {
+        padding-left: 5px;
+    }
+    .Xa_Kho
+    {  
+        font-size: 8px;
+        width: 70%;
+        height: 100% !important;
+        margin-bottom: 3px;
+    }
+    .Xa_Kho p
+    {
+        font-size: 8px;
+    }
+    .slider-product-one-content-text .Dat_truoc
+    {
+        font-size: 8px;
+        width: 60%;
+        height: 100% !important;
+        margin-bottom: 3px;
+    }
+    .Dat_truoc p
+    {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .slider-product-one-content-text li 
+    {
+        font-size: 7px;
+    }
+    .slider_baoquat svg 
+    {
+        width: 10px;
+    }
+    .slider_baoquat
+    {
+        width: 18%;
+    }
+    .tragop
+    {
+        height: 5%;
+    }
+    .tragop span
+    {
+        font-size: 5px;
+        height: 10px;
+        margin: 3px 3px 0px;
+    }
+    .slider-product-one-content-item img
+    {
+        width: 80%;
+        
+    }
+    .slider-product-one-content-item
+    {
+        width:100%;
+        padding:3px 3px 3px 3px;
+    }
+    .slider-product-one-content-text li:first-child img { width: 15px; margin-right: 1px; }
+    .slider-product-one-content-text li:first-child p {    margin-top: 7px; }
+    .slider-product-one-content-text { padding-top: 0px;}
+    .slider-product-one-content-text .VNPay
+    {   height: 15px;
+        font-size: 8px;
+        width: 70%;
+        height: 100% !important;
+       margin-bottom: 3px;
+    }
+    .slider-product-one-content-text
+    {
+        padding-top: 0px;
+    }
+    .slider-product-content-items-contents
+    {
+        height: 330px;
+    }
+    .btn_xemthem
+    {   
+        margin: 0px 0px 0px 0px;
+        margin-left: 40%;
+    }
+    .btn_xemthem button
+    {
+        padding:5px 10px 5px 10px
+    }
+    .danhsach-xuhuong img 
+    {
+        width: 100%;
+        height: 100% !important;
+    }
+    .danhsach-xuhuong
+    {
+       display: inline-block;
+    }
+    #Lenovo-margin
+    {
+        margin-top: 18px;
+    }
+}
 
 /*---------------------------------footer-------------------------*/
 
