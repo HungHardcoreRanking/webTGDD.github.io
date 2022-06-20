@@ -989,7 +989,84 @@ info-devi:visited{
     cursor: pointer;
     opacity: 1;
 }
-
+/*--------------------------------begin dich vu tien ich-------------------------------------------*/
+.service-conv{
+    display: block;
+    overflow: hidden;
+    background: #f1f1f1;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name-box a {
+    float: right;
+    text-transform: none;
+    font-weight: 500;
+    color: #555;
+    font-size: 16px;
+    text-transform: uppercase;
+}   
+.service-conv ul {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 22px 30px;
+}
+.service-conv ul li {
+    float: left;
+    width: 283px;
+    margin: 0 12px 0 0;
+    border-radius: 14px;
+    padding: 14px 10px;
+    background: #dceeff;
+    cursor: pointer;
+}
+.service-conv .box-icon {
+    width:38px;
+    height: 38px;
+}
+.service-conv li .box-icon {
+    float: left;
+    width: 38px;
+    margin-right: 12px;
+}
+.service-conv li .box-icon i {
+    font-size: 32px;
+}
+.service-conv ul li:nth-child(2) {
+    background: #fef5cf;
+}
+.service-conv ul li:nth-child(3) {
+    background: #ffefdb;
+}
+.service-conv li .box-icon {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 7px;
+}   
+.service-conv ul li:last-child {
+    float: right;
+    margin-right: 0;
+}
+.service-conv ul li:nth-child(4) {
+    background: #e1fecf;
+}
+.service-conv li .box-text small {
+    display: block;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333;
+}
+.text-conv-title {
+    font-weight: 500;
+    padding: 6px 0 12px;
+}
+.service-conv li .box-text strong {
+    color: #ff0b0b;
+}
+/*--------------------------------end dich vu tien ich-------------------------------------------*/
 
 /*---------------------------------footer-------------------------*/
 
