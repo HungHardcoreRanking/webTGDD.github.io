@@ -245,6 +245,7 @@ nav ul li:nth-child(8) a {
 /* ----------- Submenu ------------- */
 .menu-bar-content ul li{
     position: relative;
+    z-index: 2;
 }
 .submenu{
     position: absolute;
@@ -468,7 +469,7 @@ li{
 .banner-sale {
     width: 100%;
     position: fixed;
-    top: 150px;
+    top: 180px;
     left: 0;
     z-index: -1; 
 }
@@ -956,7 +957,7 @@ info-devi:visited{
     top:50%;
     display: flex;
     justify-content: space-between;
-    width: 101%;
+    width: 100%;
 }
 .arrow-slider-discount i{
     color: #333;
