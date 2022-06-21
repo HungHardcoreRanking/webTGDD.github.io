@@ -1137,6 +1137,7 @@ a.info-devi:hover {
     flex-flow: row nowrap;
     padding: 0 22px 30px;
 }
+
 .service-conv ul li {
     float: left;
     width: 283px;
@@ -1145,6 +1146,7 @@ a.info-devi:hover {
     padding: 14px 10px;
     background: #dceeff;
     cursor: pointer;
+
 }
 .service-conv .box-icon {
     width:38px;
@@ -1193,6 +1195,10 @@ a.info-devi:hover {
 /*--------------------------------end dich vu tien ich-------------------------------------------*/
 /*---product-gallery-one-content-product---*/
 /*Danh sách GỢI Ý HÔM NAY*/
+.product-gallery-one-content-dienthoai
+    {
+        margin: 0px 5px 0px 5px;
+    }
 .option-pick
 {
     display: flex;
@@ -1255,7 +1261,7 @@ a.info-devi:hover {
     justify-content: space-between;
     flex-wrap: wrap;
         position: relative;
-    height: 835px;
+    height: 875px;
     overflow: hidden;
     transition: all 0.6s ease;
 }
@@ -1337,14 +1343,70 @@ a.info-devi:hover {
 {
     padding: 15px 60px 15px 60px;
     font-size: 20;
-    border-radius: 10px
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
 }
 /*responsive*/
 @media screen and (max-width:420px) 
 
-{	 
+{	    /*header*/
+
+    .menu-bar-content ul li
+    { width: 10%;}
+   
+         /*24h Công nghệ */
+         .name-box
+         {
+            font-size: 15px;
+         }
+         .name-box a 
+         {
+            font-size: 15px;
+         }
+         
+         .col2-tech .tech-new ul
+         {
+            display:  BLOCK !important;
+            padding: 0px 0px 0px 15px;
+         }       
+        .col2-tech
+        {
+            width: 100% !important;
+            display: block !important;
+        }
+        .bg-ctv
+        {
+            width: 100% !important;
+            max-width: 1200px !important;
+        }
+        .bg-ctv img
+        {
+            width: 100%;
+            max-height: 100%;
+           
+        }
+        .col2-tech .tech-new
+        {
+            width: 100% !important;
+            margin: 0px 0px 10px;
+        }
+        .tech-new ul li span
+        {
+            font-size: 13px !important;
+        }
+                
+
         /*Dịch vụ tiện tích */
-        
+        .service-conv li .box-icon
+    {
+        width: 15px !important;
+        height: 15px !;
+    }
+            .col2-tech .tech-new ul li
+            {
+                width: 30%;
+            }
             .service-conv
             {
                 width: 100%;
@@ -1352,15 +1414,22 @@ a.info-devi:hover {
             .service-conv ul li
             {
                 width: 25%;
+                margin-left: 5px;
+                
                 
             }
+            .service-conv ul 
+
+                {
+                    padding: 0px 10px 15px 5px !important;
+                }
             .service-conv li .box-text small {
-                font-size: 10px;
-                line-height: 15px;
+                font-size: 8px;
+                line-height: 10px;
             }
             .service-conv li .box-icon i
             {
-                font-size: 20px;
+                font-size: 10px;
             }
             .service-conv li .box-icon
             {
@@ -1375,6 +1444,10 @@ a.info-devi:hover {
     {
         font-size: 7px;
     }
+    .product-gallery-one-content-dienthoai
+    {
+        margin: 0px 10px 0px 5px;
+    }
     .product-gallery-one-content-product-item li:first-child p
     {
         margin-top: 5px;
@@ -1386,15 +1459,18 @@ a.info-devi:hover {
     }
     .btn_xemthem2 button{
         padding: 5px 10px 5px 10px;
+        margin-top:10px;
+        background-color: white;
+        
     }
     .product-gallery-one-content-product
     {
-        height: 350px;
+        height: 365px;
     }
     .product-gallery-one-content-title-dienthoai
 {
     
-    margin:0px;
+    margin:5px 0px 10px 0px;
 }
     .option-pick a img
     {
@@ -1402,6 +1478,7 @@ a.info-devi:hover {
     }
     .product-gallery-one-content-product-item li:first-child img
     {        width:13px;
+            margin-right: 0px;
     }
     .product-gallery-one-content-product-item
     {
@@ -1432,12 +1509,54 @@ a.info-devi:hover {
     {
         width: 100%;
     }
-    /*-----------*/
-
-    .menu-bar-content ul li
-    { width: 10%;}
+    /*Trang chuyên thhương hiệu */
+    .trader-maker
+    {
+        width: 100% !important;
+    }
+    .Thuonghieu-content ul
+    {
+        display: flex !important;
+        
+    }
+    .trader-maker ul li
+    {
+        width: 30%;
+    }
+    .trader-maker ul li img 
+    {
+        width: 100%;
+    }
+    .title-layout
+    {
+        font-size: 15px !important;
+    }
+    /*Chuỗi mới deal khủng*/
+    .deal-slider ul li 
+    {
+        width: 30%;
+    }
+    .deal-slider ul li img
+    {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .end-slider .arrow-slider-end
+    {
+        top: 10%;
+    }
+    .end-slider .arrow-slider-end i
+    {
+        width: 20px;
+        border-radius: 10px;
+        height: 30px;
+    }
+    .end-slider
+    {
+        height: 120px !important;
+    }
     /*Danh muc noi bat */
-    
+
     .box-cate span    {
         font-size: 8px;
     }

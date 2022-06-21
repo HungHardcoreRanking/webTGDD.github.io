@@ -139,6 +139,11 @@ btnxemdt.addEventListener("click",function()
     btnxemdt.parentNode.removeChild(btnxemdt);
 
  })
+
+ $(".bg-ctv").height($(".tech-new").height());
+ $("slider-slider").height($(".deal-slider").height());
+
+
  //------------------------chuoi moi deal khung -------------------------------------
 const  rightbtn_4 = document.querySelector(".arrow-right2")
 const  leftbtn_4 = document.querySelector(".arrow-left2")
