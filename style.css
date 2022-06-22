@@ -1662,7 +1662,7 @@ a.info-devi:hover {
         font-size: 10px;
     }
     .bs_content li {
-        font-size: 8px;
+        font-size: 10px;
     }
     .box-right ul
     {
@@ -1931,7 +1931,295 @@ a.info-devi:hover {
     }
 }
 @media screen and (max-width: 920px) and (min-width: 420px)
-{   .center img 
+{    .product-gallery-one-content-product-item li
+    {
+        font-size: 12px;
+    }
+    .product-gallery-one-content-dienthoai
+    {
+        margin: 0px 10px 0px 5px;
+    }
+    .product-gallery-one-content-product-item li:first-child p
+    {
+        margin-top: 5px;
+    }
+    .btn_xemthem2
+    {
+        margin: 0px 0px 0px 0px;
+        margin-left: 40%;
+    }
+    .btn_xemthem2 button{
+        padding: 5px 10px 5px 10px;
+        margin-top:10px;
+        background-color: white;
+        
+    }
+    .product-gallery-one-content-product
+    {
+        height: 590px;
+    }
+    .product-gallery-one-content-title-dienthoai
+{
+    
+    margin:5px 0px 10px 0px;
+}
+    .option-pick a img
+    {
+        width: 15px;
+    }
+    .product-gallery-one-content-product-item li:first-child img
+    {        width:13px;
+            margin-right: 0px;
+    }
+    .product-gallery-one-content-product-item
+    {
+        width: 100%;
+        padding: 3px 3px 3px 3px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    .option-pick span
+    {
+        font-size: 15px;
+    }
+    .product-gallery-one-content-product-item a
+    {
+        font-size: 15px;
+    }
+    .option-pick a
+    {
+        padding: 0px;
+        height: 100%;
+    }
+    .hihihi
+    {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .product-gallery-one
+    {
+        width: 100%;
+    }
+    /*Trang chuyên thhương hiệu */
+    .trader-maker
+    {
+        width: 100% !important;
+    }
+    .Thuonghieu-content ul
+    {
+        display: flex !important;
+        
+    }
+    .trader-maker ul li
+    {
+        width: 30%;
+    }
+    .trader-maker ul li img 
+    {
+        width: 100%;
+    }
+    .title-layout
+    {
+        font-size: 15px !important;
+    }
+    /*Chuỗi mới deal khủng*/
+    .deal-slider ul li 
+    {
+        width: 30%;
+    }
+    .deal-slider ul li img
+    {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .end-slider .arrow-slider-end
+    {
+        top: 30%;
+    }.name-box {
+        display: inline-block;
+    }
+    .end-slider .arrow-slider-end i
+    {
+        width: 20px;
+        border-radius: 10px;
+        height: 30px;
+    }
+    .end-slider
+    {
+        height: 180px !important;
+    }
+    /*slider first*/
+    .slider-content-left-container
+    {
+        height: 130px;
+    }
+    .slider-content-right
+    {
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+.slider
+{
+    padding:2px 0px 0px 0px
+}
+    
+.slider-content
+{
+    display: block;
+}
+.slider-content-right li img
+{
+    width: 100%;
+    height: 100%;
+}
+.slider-content-left
+{
+    width: 100%;
+}
+.slider-left-bottom li
+{
+    line-height: 10px;
+    font-size: 12px;
+}
+
+.menu-bar-content ul li
+{ width: 10%;}
+
+
+/*---Giam khi thanh toán onl----- */
+.discount-payout
+{
+    margin-bottom: 10px;
+}
+.home-slider
+{
+    height: 100px;
+}
+.lists-item li
+{
+    width: 32%;
+}
+.lists-item li a img
+{
+    width: 100% !important;
+    height: 80px;
+}
+     /*24h Công nghệ */
+     .name-box
+     {
+        font-size: 10px;
+        padding: 5px 10px;
+     }
+     .name-box a 
+     {
+        font-size: 10px;
+     }
+     
+     .col2-tech .tech-new ul
+     {
+        display:  BLOCK !important;
+        padding: 0px 0px 0px 15px;
+     }       
+    .col2-tech
+    {
+        width: 100% !important;
+        display: block !important;
+    }
+    .bg-ctv
+    {
+        width: 100% !important;
+        max-width: 1200px !important;
+    }
+    .bg-ctv img
+    {
+        width: 100%;
+        max-height: 100%;
+       
+    }
+    .col2-tech .tech-new
+    {
+        width: 100% !important;
+        margin: 0px 0px 10px;
+    }
+    .tech-new ul li span
+    {
+        font-size: 13px !important;
+    }
+            
+
+    /*header*/
+    .banner-party 
+    {
+        width: 100% !important;
+    }
+    .Ban-tim-gi
+    {
+        font-size: 10px;
+        height: 15px !important;
+    }
+    .Ban-tim-gi-li i 
+    {
+        font-size: 10px !important;
+        line-height: 20px !important;
+    }
+    .button-header
+    {
+        margin-left: 3px !important;
+        font-size: 9px;
+
+    }
+    .nav ul li, a
+    {
+        font-size: 12px;
+    }
+    .logotgdd
+    {
+        display: none;
+    }
+    .moblie
+    {
+        display: block;
+        width: 30px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+   
+    .menu-bar
+    {
+        padding: 3px 0px 0px 0px;
+    }
+    .menu-bar ul li  {
+        font-size: 12px;
+    }
+    .menu-bar ul li a   {
+        font-size: 12px;
+        overflow:hidden
+    }
+    
+        /*Danh muc noi bat */
+    
+    .box-cate span    {
+        font-size: 8px;
+    }
+    .cate-feature .box-cate
+    {
+        padding: 0px 0px 4px;
+    }
+    .box-cate li img
+    {
+        width: 100%;
+        padding-left: 2px;
+        padding-right: 2px;
+        height: 50%;
+    }
+    .cate-feature
+    {
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+    .center img 
     {width: 100%;}
     .Dien-thoai
     {
