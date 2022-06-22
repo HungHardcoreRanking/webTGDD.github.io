@@ -1358,11 +1358,11 @@ a.info-devi:hover {
          /*24h Công nghệ */
          .name-box
          {
-            font-size: 15px;
+            font-size: 10px;
          }
          .name-box a 
          {
-            font-size: 15px;
+            font-size: 10px;
          }
          
          .col2-tech .tech-new ul
@@ -1415,6 +1415,8 @@ a.info-devi:hover {
             {
                 width: 25%;
                 margin-left: 5px;
+                padding: 5px 3px;
+                margin-right: 5px;
                 
                 
             }
@@ -1465,7 +1467,7 @@ a.info-devi:hover {
     }
     .product-gallery-one-content-product
     {
-        height: 365px;
+        height: 355px;
     }
     .product-gallery-one-content-title-dienthoai
 {
@@ -1543,7 +1545,7 @@ a.info-devi:hover {
     }
     .end-slider .arrow-slider-end
     {
-        top: 10%;
+        top: 30%;
     }
     .end-slider .arrow-slider-end i
     {
@@ -1755,9 +1757,13 @@ a.info-devi:hover {
         margin-top: 5px;
         margin-bottom: 5px;
     }
+    .slider-product-one-content-tex a
+    {
+        font-size: 7px !important ;
+    }
     .slider-product-one-content-text li 
     {
-        font-size: 7px;
+        font-size: 7px !important;
     }
     .slider_baoquat svg 
     {
