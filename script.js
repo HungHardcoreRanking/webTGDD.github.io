@@ -176,6 +176,19 @@ function Auto(){
     document.querySelector(".slider-slider").style.right=index2*100+"%"
 }
 setInterval(Auto,5000)
+const allSideMenu = document.querySelectorAll('#sidebar .side-menu.top li a');
+
+allSideMenu.forEach(item=> {
+    const li = item.parentElement;
+
+    item.addEventListener('click', function () {
+        allSideMenu.forEach(i=> {
+            i.parentElement.classList.remove('active');
+        })
+        li.classList.add('active')
+    })
+});
+
 //--------------------------------footer--------------------------
 const click = document.querySelector('.click')
 console.log(click)
