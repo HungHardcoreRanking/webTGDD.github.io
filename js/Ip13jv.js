@@ -47,3 +47,12 @@ image.addEventListener("click",function()
      )
     }
      )
+//--------------------------------footer--------------------------
+const click = document.querySelector('.click')
+console.log(click)
+click.addEventListener('click',function(){
+    const dropdown = document.querySelector('.drop-down')
+    console.log(dropdown)
+    dropdown.classList.toggle('new')
+})
+

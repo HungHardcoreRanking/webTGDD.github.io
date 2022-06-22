@@ -18,7 +18,7 @@ a{
     margin: auto;
 }
 
-.header{
+header{
     background-color: #FBD20E;
     text-align: center;
     height: 44px;
@@ -765,7 +765,7 @@ li {
     max-width: 100%;
     background-position: center top;
     text-align: center;
-
+    margin-top: 90px;
 }
 
 .box-menu-img {
@@ -809,6 +809,9 @@ li {
     min-width: 1200px;
     padding: 20px 0px;
     height: 350px;
+}
+.bodymain{
+    margin-top: 80px;
 }
 .Iphone13-price
 {

@@ -134,7 +134,7 @@ btnxemdt.addEventListener("click",function()
     {
         index3=0;
     }
-    document.querySelector(".product-gallery-one-content-product").style.height= heighthehehe+heighthehehe*index3+"px"   
+    document.querySelector(".product-gallery-one-content-product").style.height="1750px"
     
     btnxemdt.parentNode.removeChild(btnxemdt);
 
