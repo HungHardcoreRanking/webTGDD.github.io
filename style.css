@@ -162,6 +162,7 @@ nav ul li:nth-child(8) a {
 
 .menu-bar ul li:hover{
     background-color: white;
+    border-radius: 10px;
 }
 
 .menu-bar ul li a i {
@@ -1858,6 +1859,7 @@ a.info-devi:hover {
     display: block;
     overflow: hidden;
     max-width: 285px;
+    height: 352px;
 }
 .tech-new ul {
     display: flex;
@@ -1890,6 +1892,7 @@ a.info-devi:hover {
     color: #333;
     margin: 10px 0;
 }
+
 /*-----------------------------------------------Thuong hieu--------------------------------------*/
 .trader-maker{
     display: block;
