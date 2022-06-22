@@ -129,12 +129,12 @@ console.log(imgNumdt)
 let index3=0
 btnxemdt.addEventListener("click",function()
  {  btnxemdt.disabled =true
-    index=index+1
-    if(index>imgNumdt.length-1)
+    index3=index3+1
+    if(index3>imgNumdt.length-1)
     {
-        index=0;
+        index3=0;
     }
-    document.querySelector(".product-gallery-one-content-product").style.height= "1750px"   
+    document.querySelector(".product-gallery-one-content-product").style.height= heighthehehe+heighthehehe*index3+"px"   
     
     btnxemdt.parentNode.removeChild(btnxemdt);
 
