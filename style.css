@@ -1355,7 +1355,25 @@ a.info-devi:hover {
 
     .menu-bar-content ul li
     { width: 10%;}
-   
+
+    /*---Giam khi thanh toán onl----- */
+    .discount-payout
+    {
+        margin-bottom: 10px;
+    }
+    .home-slider
+    {
+        height: 100px;
+    }
+    .lists-item li
+    {
+        width: 32%;
+    }
+    .lists-item li a img
+    {
+        width: 100% !important;
+        height: 80px;
+    }
          /*24h Công nghệ */
          .name-box
          {
@@ -1576,6 +1594,7 @@ a.info-devi:hover {
     .cate-feature
     {
         width: 100%;
+        margin: 10px 0px 10px 0px;
     }
     /*------------------------*/
     .banner-first  
