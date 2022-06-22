@@ -900,9 +900,11 @@ li {
 }
 
 .main-box {
+
     padding: 10px 0;
     height: 500px;
-    margin: 0 100px
+    margin: 0 100px;
+    margin-bottom: 150px;   
 }
 
 .box-content-left {
