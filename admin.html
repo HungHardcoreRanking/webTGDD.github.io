@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/975a2f75a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Website admin</title>
+</head>
+<body>
+<!-----------------------------begin side bar-------------------------------------------------------------------->
+<section id="sidebar">
+        <a href="main" class="brand">
+            <img src="./assets/img/Logothegioididong.webp" alt="">
+            <span class="text">Thế Giới Di Động</span>
+        </a>
+        <ul class="side-menu top">
+            <li class="active">
+				<a href="#">
+                    <i class="fa-solid fa-table-columns"></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#table-data-store">
+                    <i class="fa-solid fa-store"></i>
+					<span class="text">My Store</span>
+				</a>
+			</li>
+			<li>
+				<a href="#table-data-bill">
+					<i class="fa-solid fa-wallet"></i>
+					<span class="text">Bill</span>
+				</a>
+			</li>
+			<li>
+				<a href="#table-data-staff">
+					<i class="fa-solid fa-person"></i>
+					<span class="text">Staff</span>
+				</a>
+			</li>
+			<li>
+				<a href="#table-accounts">
+					<i class="fa-solid fa-address-card"></i>
+					<span class="text">Accounts</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class="fa-solid fa-gears"></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="/login.html" class="logout">
+					<i class="fa-solid fa-circle-arrow-left"></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+        </ul>
+</section>
+<!-----------------------------end side bar-------------------------------------------------------------------->
+<!-- CONTENT -->
+<section id="content">
+    <!-- NAVBAR -->
+    <nav>
+        <i class="search-btn1 fa-solid fa-bars"></i>
+        <a href="#" class="nav-link">Categories</a>
+        <form action="#">
+            <div class="form-input">
+                <input type="search" placeholder="Search...">
+                <button type="submit" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </form>
+        <input type="checkbox" id="switch-mode" hidden>
+        <label for="switch-mode" class="switch-mode"></label>
+        <a href="#" class="notification">
+            <i class="fa-solid fa-bell"></i>
+            <span class="num">8</span>
+        </a>
+        <a href="#" class="profile">
+            <img src="./assets/img/facebook-cap-nhat-avatar-doi-voi-tai-khoan-khong-su-dung-anh-dai-dien-e4abd14d.jpg">
+        </a>
+    </nav>
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class="fa-solid fa-angle-right"></i>
+						<li>
+							<a class="active" href="#">Home</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class="fa-solid fa-calendar"></i>
+					<span class="text">
+						<h3>1020</h3>
+						<p>New Order</p>
+					</span>
+				</li>
+				<li>
+					<i class="fa-solid fa-user-group"></i>
+					<span class="text">
+						<h3>2834</h3>
+						<p>Visitors</p>
+					</span>
+				</li>
+				<li>
+					<i class="fa-solid fa-hand-holding-dollar"></i>
+					<span class="text">
+						<h3>$2543</h3>
+						<p>Total Sales</p>
+					</span>
+				</li>
+			</ul>
+			<!---------------table------------------------->
+			<div id="table-data-store">
+				<div class="products">
+					<div class="head">
+						<h3>Danh sách sản phẩm</h3>
+					</div>
+					<table border="0.1"">
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Mã sản phẩm</th>
+								<th>Tên Sản phẩm</th>
+								<th>Đơn giá</th>
+								<th>Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Sp01</td>
+								<td>Iphone13</td>
+								<td>26.490.000đ</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+								</td>
+							</tr>
+								<td>2</td>
+								<td>Sp02</td>
+								<td>Iphone13 pro max</td>
+								<td>34.290.000đ</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+								</td>
+							<tr>
+								<td>3</td>
+								<td>Sp03</td>
+								<td>Iphone13 pro</td>
+								<td>29.290.000đ</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+								</td>
+							</tr>
+								<td>4</td>
+								<td>Sp04</td>
+								<td>Galaxy M335G</td>
+								<td>7.690.000đ</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+							</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="table-data-bill">
+				<div class="bill">
+					<div class="head">
+						<h3>Bill</h3>
+					</div>
+					<table border="0.1"">
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Mã đơn hàng</th>
+								<th>Tên Sản phẩm</th>
+								<th>Đơn giá</th>
+								<th>Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>DH01</td>
+								<td>Iphone13</td>
+								<td>26.490.000đ</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+									<a href="#">Xem chi tiết</a>
+
+								</td>
+							</tr>
+								<td>2</td>
+								<td>HD02</td>
+								<td>Iphone13 pro max</td>
+								<td>34.290.000đ</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+									<a href="#">Xem chi tiết</a>
+								</td>
+							<tr>
+								<td>3</td>
+								<td>HD03</td>
+								<td>Iphone13 pro</td>
+								<td>29.290.000đ</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+									<a href="#">Xem chi tiết</a>
+
+								</td>
+							</tr>
+								<td>4</td>
+								<td>HD04</td>
+								<td>Galaxy M335G</td>
+								<td>7.690.000đ</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+									<a href="#">Xem chi tiết</a>
+
+							</td>
+							</tr>
+						</tbody>
+					</table>
+			</div>
+			<div id="table-data-staff">
+				<div class="staff">
+					<div class="head">
+						<h3>Danh sách nhân viên</h3>
+					</div>
+					<table border="0.1"">
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Mã nhân viên</th>
+								<th>Tên </th>
+								<th>Ngày sinh</th>
+								<th>Giới tính</th>
+								<th>Sđt</th>
+								<th>Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Nv01</td>
+								<td>Nguyễn Văn Đạt</td>
+								<td>02/10/1999</td>
+								<td>Nam</td>
+								<td>111111111111</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+								</td>
+							</tr>
+								<td>2</td>
+								<td>Nv02</td>
+								<td>Nguyễn thị phone</td>
+								<td>04/06/1999</td>
+								<td>Nữ</td>
+								<td>2222222222</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+								</td>
+							<tr>
+								<td>3</td>
+								<td>Nv03</td>
+								<td>Lê văn Vũ</td>
+								<td>12/11/2000</td>
+								<td>Nam</td>
+								<td>33333333333</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+								</td>
+							</tr>
+								<td>4</td>
+								<td>Nv04</td>
+								<td>Phạm Thị Sáu</td>
+								<td>06/06/1996</td>
+								<td>Nữ</td>
+								<td>66666666666666</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+							</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="table-accounts">
+				<div class="accounts">
+					<div class="head">
+						<h3>Danh sách sản phẩm</h3>
+					</div>
+					<table border="0.1"">
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Tên tài khoản</th>
+								<th>Mật khẩu</th>
+								<th>Action</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>admin</td>
+								<td>admin</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+								</td>
+							</tr>
+								<td>2</td>
+								<td>guess1</td>
+								<td>guess1</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+								</td>
+							<tr>
+								<td>3</td>
+								<td>guess32</td>
+								<td>guess3</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+								</td>
+							</tr>
+								<td>4</td>
+								<td>guess34</td>
+								<td>guess4</td>
+								<td><a href="#">Sửa</a>
+									<a href="#">Xóa</a>
+							</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
