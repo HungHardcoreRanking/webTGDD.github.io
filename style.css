@@ -67,7 +67,10 @@ nav ul li:nth-child(3) input {
     padding-left: 6px;
     outline: none;
 }
-
+.logotgdd
+{
+    width: 150px;
+}
 nav ul li:nth-child(3) i {
     position: absolute;
     font-size: 15px;
@@ -137,7 +140,10 @@ nav ul li:nth-child(8):hover a {
 nav ul li:nth-child(8) a {
     color: rgb(176,100,49);
 }
- 
+ .moblie
+ {
+    display: none;
+ }
 
 /* --------------------------- menu bar--------------------------------- */
 
@@ -1351,7 +1357,85 @@ a.info-devi:hover {
 /*responsive*/
 @media screen and (max-width:420px) 
 
-{	    /*header*/
+{	   
+    /*header*/
+    .Ban-tim-gi
+    {
+        font-size: 10px;
+        height: 15px !important;
+    }
+    .Ban-tim-gi-li i 
+    {
+        font-size: 10px !important;
+        line-height: 20px !important;
+    }
+    .button-header
+    {
+        margin-left: 3px !important;
+        font-size: 9px;
+
+    }
+    .nav ul li, a
+    {
+        font-size: 9px;
+    }
+    .logotgdd
+    {
+        display: none;
+    }
+    .moblie
+    {
+        display: block;
+        width: 30px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+   
+    .menu-bar
+    {
+        padding: 10px 0px 0px 0px;
+    }
+    .menu-bar ul li  {
+        font-size: 10px;
+    }
+    .menu-bar ul li a   {
+        font-size: 10px;
+        overflow:hidden
+    }
+    
+    
+    /*slider first*/
+        .slider-content-left-container
+        {
+            height: 130px;
+        }
+        .slider-content-right
+        {
+            flex-wrap: nowrap;
+            width: 100%;
+            margin-left: 0px;
+            margin-top: 5px;
+        }
+    
+        
+    .slider-content
+    {
+        display: block;
+    }
+    .slider-content-right li img
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .slider-content-left
+    {
+        width: 100%;
+    }
+    .slider-left-bottom li
+    {
+        line-height: 10px;
+        font-size: 8px;
+    }
 
     .menu-bar-content ul li
     { width: 10%;}
@@ -1575,6 +1659,30 @@ a.info-devi:hover {
     .end-slider
     {
         height: 120px !important;
+    }
+    /*--- Ưu đãi---*/
+    .list-promo
+    {
+        display: inline;
+    }
+    .list-promo li span
+    {
+        margin-left: 3px;
+    }
+    .list-promo li
+    {
+        margin-right: 5px;
+        padding: 5px 5px 5px 5px;
+        width: 23%;
+    }
+    .list-promo li img
+    {
+        height: 18px;
+    }
+    .list-promo li span
+    {
+        font-size: 8px;
+        line-height: 10px;
     }
     /*Danh muc noi bat */
 
